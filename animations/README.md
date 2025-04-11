@@ -55,4 +55,5 @@ Future ideas:
 
 ## 📸 Preview
 
-_(Insert screenshot or GIF of animation here)_
+![Alt text](preview.png)
+
