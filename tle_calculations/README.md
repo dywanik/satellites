@@ -6,6 +6,11 @@ This project provides a set of Python scripts to:
 - Save orbital data to file in raw text format
 - Generate histograms for each orbital element with optional filtering and interactivity
 
+NOTE:
+It is advisable to use Python's venv when installing and ussing the tools:
+```
+source venv/bin/activate
+```
 ---
 
 ## 📂 Components
@@ -48,7 +53,7 @@ python plot_histograms.py q 300        # Plot perigee > 300 km
 ---
 
 ### 3. `clean_tle_file()`
-Utility function to extract only line 1 and 2 of each TLE set (discarding names).
+Utility function to extract only line 1 and 2 of each TLE set (discarding names). Also, cleans up empty and erroneous lines.
 
 ```python
 clean_tle_file('tle_2013.txt', 'tle_2013_clean.txt')
