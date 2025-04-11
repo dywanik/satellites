@@ -1,0 +1,69 @@
+# Virtual environments
+**/venv/
+**/.env/
+**/.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS & system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Compiled C extensions
+*.so
+
+# Test and coverage output
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Large auto-generated or data files
+*.csv
+*.tsv
+*.json
+*.xml
+*.h5
+*.db
+*.sqlite
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.bin
+*.pkl
+*.npy
+*.npz
+
+# Secret or config files
+.env
+.env.*
+secrets.*
+config.*
+credentials.*
+
+# Ignore notebook outputs (optional)
+*.nbconvert.ipynb
